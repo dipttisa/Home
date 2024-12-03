@@ -33,7 +33,7 @@ class RegistrationActivity : AppCompatActivity() {
         Button = findViewById(R.id.button)
         Button2 = findViewById(R.id.button2)
 //tttttttttt
-
+//////dqwdwqdqwdqwdqdqw
         Button.setOnClickListener {
             validateFields()
         }
