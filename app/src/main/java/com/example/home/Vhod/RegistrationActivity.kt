@@ -32,7 +32,7 @@ class RegistrationActivity : AppCompatActivity() {
         passwordEditText = findViewById(R.id.editTextNumberPassword)
         Button = findViewById(R.id.button)
         Button2 = findViewById(R.id.button2)
-
+//tttttttttt
 
         Button.setOnClickListener {
             validateFields()
