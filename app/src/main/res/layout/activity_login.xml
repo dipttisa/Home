@@ -56,6 +56,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.0" />
 
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -68,30 +69,10 @@
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.162"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="280dp"
-        android:layout_marginBottom="392dp"
-        android:fontFamily="@font/comfortaa"
-        android:text="*"
-        android:textColor="#FF0000"
-        android:textSize="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintVertical_bias="0.0" />
-
+        app:layout_constraintVertical_bias="0.238" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -161,9 +142,10 @@
         android:id="@+id/button"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#984E4F"
+        android:background= "@drawable/background_edittext"
         android:text="Войти"
         android:onClick="Batton"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -175,9 +157,10 @@
         android:id="@+id/button2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="#2A2A37"
+        android:background = "@drawable/back_knop"
         android:text="Регистрация"
         android:onClick="Batton2"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp">
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="135dp"
+        android:layout_height="172dp"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/deviceImageView"
+            android:layout_width="86dp"
+            android:layout_height="88dp"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toTopOf="@+id/deviceNameTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/deviceImageView2"
+            android:layout_width="66dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="@+id/deviceImageView"
+            app:layout_constraintStart_toStartOf="@+id/deviceImageView"
+            app:layout_constraintTop_toTopOf="@+id/deviceImageView" />
+
+        <TextView
+            android:id="@+id/deviceNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="лампа"
+            android:textColor="#94949B"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.909" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

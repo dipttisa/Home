@@ -1,5 +1,6 @@
 package com.example.home
 
+
 import android.animation.Animator
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -9,6 +10,8 @@ import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 import com.example.home.Vhod.LoginActivity
+import com.example.home.Vhod.RegistrationActivity
+
 
 class SplashActivity : AppCompatActivity() {
 
@@ -18,7 +21,7 @@ class SplashActivity : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             // Переход на главный экран
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, RegistrationActivity::class.java)
             startActivity(intent)
             finish()
         }, 5000)

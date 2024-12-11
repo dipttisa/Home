@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Address.AdrActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="632dp"
+        android:text="Добавить адрес"
+        android:gravity="center"
+        android:background="#2A2A37"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="@font/comfortaa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:fontFamily="@font/comfortaa"
+        android:gravity="center"
+        android:text="Добавьте адрес своего дома в формате г. Название города, ул. Название улицы, д. Номер дома, кв. Номер квартиры"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="356dp"
+        android:ems="100"
+        android:padding="10dp"
+        android:hint="Адрес"
+        android:background="@drawable/under_line"
+        android:inputType="textPostalAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        android:textColor="@color/white"
+        android:background="@drawable/bak_but"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPostalAddress"
+        app:layout_constraintVertical_bias="0.579" />
+</androidx.constraintlayout.widget.ConstraintLayout>
